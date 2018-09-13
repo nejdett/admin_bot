@@ -1,12 +1,12 @@
 {
-  "name": "discordbotdersleri",
-  "version": "0.0.1",
+  "name": "adminbot",
+  "version": "1.0.1",
   "description": "",
-  "main": "bot.js",
+  "main": "app.js",
   "scripts": {
-    "test": "node bot.js"
+    "test": "node app.js"
   },
-  "author": "Serhan",
+  "author": "ByNejdet",
   "license": "ISC",
   "dependencies": {
     "chalk": "^2.4.1",
@@ -16,6 +16,9 @@
     "discord.js-commando": "^0.10.0",
     "generate-password": "^1.4.0",
     "math-expression-evaluator": "^1.2.17",
-    "moment": "^2.22.2"
+    "moment": "^2.22.2",
+    "moment-duration-format": "^2.2.2",
+    "ms": "^2.1.1",
+    "snekfetch": "^4.0.4"
   }
 }
